@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // 目标语言版本
+    "module": "commonjs", // 指定生成代码的模板标准
+    "sourceMap": false, // 是否生成调试用的map文件
+    "outDir": "./dist", // 指定输出目录, 默认是dist文件夹
+    "rootDir": "./src",
+    "strict": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  // 需要编译的的文件和目录
+  "include": [
+    "src/",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "react-ui",
+    "uploads",
+    "docker",
+  ]
+}
