@@ -8,11 +8,15 @@ import { createServer } from 'http';
 import { Server } from 'socket.io'; // 引入 socket.io 模块
 // 引入路由
 import router from '@/business/router';
+// 引入mysql
+import initDB from '@/mysql/db';
 
 import errHandlerFn from './errHandler';
 // 初始化 Koa 应用实例
 const app = new Koa();
 
+// 初始化数据库
+initDB();
 
 // 注册中间件
 // 解决跨域问题

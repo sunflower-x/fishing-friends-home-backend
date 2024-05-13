@@ -11,7 +11,7 @@ export default () => {
       MYSQL_PORT: 3306,
       MYSQL_USER: 'root',
       MYSQL_PWD: '20011014Xbh!',
-      MYSQL_DB: 'leno_admin',
+      MYSQL_DB: 'fishing-friends-home',
       // JWT
       JWT_SECRET: 'lenoAdmin',
       JWT_REFRESH_SECRET: 'refreshToken',
@@ -39,7 +39,7 @@ export default () => {
       MYSQL_PORT: 4000,
       MYSQL_USER: 'root',
       MYSQL_PWD: 'Aa363689;',
-      MYSQL_DB: 'leno_admin',
+      MYSQL_DB: 'fishing-friends-home',
       // JWT
       JWT_SECRET: 'lenoAdmin',
       JWT_REFRESH_SECRET: 'refreshToken',
@@ -68,7 +68,7 @@ export default () => {
       MYSQL_PORT: 3306,
       MYSQL_USER: 'root',
       MYSQL_PWD: 'Aa363689;',
-      MYSQL_DB: 'leno_admin',
+      MYSQL_DB: 'fishing-friends-home',
       // JWT
       JWT_SECRET: 'lenoAdmin',
       JWT_REFRESH_SECRET: 'refreshToken',
